@@ -87,6 +87,7 @@ const Header = () => {
                 <FaBars />
                 <p className="ml-2 font-poppins">All Category</p>
               </span>
+              {/* dropdown menu */}
             </div>
             <Link href="/categories/new-arrival">
               <a className="text-white font-poppins">New Arrival</a>
