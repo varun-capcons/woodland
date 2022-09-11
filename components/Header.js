@@ -11,7 +11,7 @@ import {
 const Header = () => {
   return (
     <>
-      <header className="py-4 shadow-sm font-poppins bg-pink-100 lg:bg-white">
+      <header className="py-4 shadow-sm font-avenirm bg-green-100 lg:bg-white">
         <div className="container flex items-center justify-between">
           {/* logo start */}
           <Link href="/">
@@ -50,7 +50,7 @@ const Header = () => {
                       99
                     </span>
                   </span>
-                  <p className="font-poppins">wishlist</p>
+                  <p className="font-avenirm">wishlist</p>
                 </a>
               </Link>
             </div>
@@ -63,7 +63,7 @@ const Header = () => {
                       9
                     </span>
                   </span>
-                  <p className="font-poppins">cart</p>
+                  <p className="font-avenirm">cart</p>
                 </a>
               </Link>
             </div>
@@ -72,7 +72,7 @@ const Header = () => {
                 <span class="relative inline-block">
                   <FaUser size={24} />
                 </span>
-                <p className="font-poppins">Account</p>
+                <p className="font-avenirm">Account</p>
               </div>
             </Link>
           </div>
@@ -85,26 +85,26 @@ const Header = () => {
             <div className="px-8 py-4 bg-primary flex items-center cursor-pointer group relative">
               <span className="text-white items-center flex">
                 <FaBars />
-                <p className="ml-2 font-poppins">All Category</p>
+                <p className="ml-2 font-avenirm">All Category</p>
               </span>
               {/* dropdown menu */}
             </div>
             <Link href="/categories/new-arrival">
-              <a className="text-white font-poppins">New Arrival</a>
+              <a className="text-white font-avenirm">New Arrival</a>
             </Link>
             <Link href="/categories/men">
-              <a className="text-white font-poppins">Men</a>
+              <a className="text-white font-avenirm">Men</a>
             </Link>
             <Link href="/categories/women">
-              <a className="text-white font-poppins">Women</a>
+              <a className="text-white font-avenirm">Women</a>
             </Link>
             <Link href="/categories/">
-              <a className="text-white font-poppins">StreetWear</a>
+              <a className="text-white font-avenirm">StreetWear</a>
             </Link>
           </div>
           <div>
             <Link href="/accounts">
-              <a className="text-white font-poppins">Outlet</a>
+              <a className="text-white font-avenirm">Outlet</a>
             </Link>
           </div>
         </div>

@@ -8,7 +8,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="h-screen container">Coming Soon</div>
+      <div className=" container h-screen w-full justify-center items-center">
+        <h1 className="text-3xl">Coming Soon</h1>
+      </div>
       <Footer />
     </>
   );

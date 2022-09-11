@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../public/fonts/avenir-next-regular.woff");
+}
+
+@font-face {
+  font-family: "Avenir-Bold";
+  src: url("../public/fonts/avenir-next-bold.woff");
+}
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("../public/fonts/avenir-next-medium.woff");
+}
+
+@font-face {
+  font-family: "Avenir-Demi";
+  src: url("../public/fonts/avenir-next-demi.woff");
+}

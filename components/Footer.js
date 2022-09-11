@@ -82,61 +82,75 @@ const Footer = () => {
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 className="title-font text-lg font-bold text-white tracking-widest mb-3">
+              <h2 className="title-font text-lg font-avenirb text-white tracking-widest mb-3">
                 SHOP BY
               </h2>
               <nav className="list-none mb-10 space-y-5">
                 <li>
-                  <a className="text-white hover:text-gray-800">All</a>
+                  <a className="text-white hover:text-gray-800 font-avenir">
+                    All
+                  </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-gray-800">Footwear</a>
+                  <a className="text-white hover:text-gray-800 font-avenir">
+                    Footwear
+                  </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-gray-800">Apparels</a>
+                  <a className="text-white hover:text-gray-800 font-avenir">
+                    Apparels
+                  </a>
                 </li>
                 <li>
-                  <a className="text-white hover:text-gray-800">Accessories</a>
+                  <a className="text-white hover:text-gray-800 font-avenir">
+                    Accessories
+                  </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 className="title-font text-lg font-bold text-white tracking-widest mb-3">
+              <h2 className="title-font text-lg font-avenirb text-white tracking-widest mb-3">
                 BORING STUFF
               </h2>
               <nav className="list-none mb-10 space-y-5">
                 <li>
                   <Link href="/about">
-                    <a className="text-white hover:text-gray-800">About</a>
+                    <a className="text-white font-avenir hover:text-gray-800">
+                      About
+                    </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
-                    <a className="text-white hover:text-gray-800">Contact</a>
+                    <a className="text-white font-avenir hover:text-gray-800">
+                      Contact
+                    </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/stories">
-                    <a className="text-white hover:text-gray-800">Stories</a>
+                    <a className="text-white font-avenir hover:text-gray-800">
+                      Stories
+                    </a>
                   </Link>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-bold text-lg text-white tracking-widest mb-3">
+              <h2 className="title-font font-avenirb text-lg text-white tracking-widest mb-3">
                 LEGAL
               </h2>
               <nav className="list-none mb-10 space-y-5">
                 <li>
                   <Link href="/legal/terms">
-                    <a className="text-white hover:text-gray-800">
+                    <a className="text-white font-avenir hover:text-gray-800">
                       Terms and Condition
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/legal/refund">
-                    <a className="text-white hover:text-gray-800">
+                    <a className="text-white hover:text-gray-800 font-avenir">
                       Shipping, Return and Refund Policy{" "}
                     </a>
                   </Link>
@@ -148,7 +162,7 @@ const Footer = () => {
       </footer>
       <div className="bg-primary border border-t-2 py-4 container">
         <div className="container flex items-center justify-between ">
-          <p className="text-white font-semibold ">© Aero Club 2022</p>
+          <p className="text-white font-avenirm">© Aero Club 2022</p>
 
           <div>
             <img src="/images/methods.png" className="h-5" />

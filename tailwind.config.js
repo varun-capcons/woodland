@@ -22,8 +22,10 @@ module.exports = {
         primary: "#2C6431",
       },
       fontFamily: {
-        roboto: ["Roboto"],
-        poppins: ["Poppins"],
+        avenir: ["Avenir"],
+        avenirb: ["Avenir-bold"],
+        avenird: ["Avenir-demi"],
+        avenirm: ["Avenir-medium"],
       },
     },
   },
