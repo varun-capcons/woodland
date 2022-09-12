@@ -88,6 +88,7 @@ const Header = () => {
                 <p className="ml-2 font-avenirm">All Category</p>
               </span>
               {/* dropdown menu */}
+              <div className="absolute left-0 top-full w-full bg-white shadow-md py-3"></div>
             </div>
             <Link href="/categories/new-arrival">
               <a className="text-white font-avenirm">New Arrival</a>
