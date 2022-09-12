@@ -85,10 +85,57 @@ const Header = () => {
             <div className="px-8 py-4 bg-primary flex items-center cursor-pointer group relative">
               <span className="text-white items-center flex">
                 <FaBars />
-                <p className="ml-2 font-avenirm">All Category</p>
+                <p className="ml-2 font-avenir">All Category</p>
               </span>
               {/* dropdown menu */}
-              <div className="absolute left-0 top-full w-full bg-white shadow-md py-3"></div>
+              <div className="absolute left-0 top-full w-full bg-white shadow-md invisible opacity-0 group-hover:opacity-100 group-hover:visible py-3 transition duration-300 z-50 divide-y divide-gray-300 divide-dashed">
+                <div className="px-4 py-3 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a>FOOTWEAR</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Casuals</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Formals</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Boots</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Safety Shoes</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Flip Flops</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Sandals</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Slippers</a>
+                  </Link>
+                </div>
+                <div className="py-2 px-10 hover:bg-primary hover:text-white">
+                  <Link href="/">
+                    <a className="font-avenirm">Sports</a>
+                  </Link>
+                </div>
+              </div>
+              {/* Dropdown Ends*/}
             </div>
             <Link href="/categories/new-arrival">
               <a className="text-white font-avenirm">New Arrival</a>
